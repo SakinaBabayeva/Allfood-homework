@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#discover .discoverBox span {
+  color: red;
+}
+#discover .discoverBox h1 {
+  font-size: 49px;
+}
+#discover .discoverBox p {
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+#discover .card-box {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+#discover .card-box .icon i {
+  font-size: 45px;
+}
+
+#OurBestfood .textBox .textTop {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+#OurBestfood .textBox .textBottom {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+#OurBestfood .textBox #btn {
+  border: 1px solid red;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+#OurBestfood .textBox span {
+  color: red;
+}
+#OurBestfood .textBox h1 {
+  font-size: 49px;
+}
+#OurBestfood .textBox p {
+  padding: 20px 0px;
+  margin-top: 20px;
+}
